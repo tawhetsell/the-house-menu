@@ -1,0 +1,350 @@
+[
+  {
+    "id": "chickpea-tzatziki-salad",
+    "title": "Chickpea Tzatziki Salad",
+    "category": "dinner",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "description": "A refreshing, creamy chickpea salad with yogurt, cucumber, and fresh herbs.",
+    "tags": ["quick", "healthy", "no-cook"],
+    "source": "https://cooking.nytimes.com/recipes/1025698-tzatziki-chickpea-salad",
+    "image": "seed-images/chickpea-tzatziki.png",
+    "ingredients": [
+      { "name": "Greek yogurt", "quantity": 1, "unit": "cup", "originalText": "1 cup Greek yogurt", "category": "dairy" },
+      { "name": "garlic", "quantity": 1, "unit": "clove", "originalText": "1 garlic clove, grated", "preparation": "grated", "category": "produce" },
+      { "name": "olive oil", "quantity": 2, "unit": "tbsp", "originalText": "2 tablespoons olive oil, plus more for serving", "category": "condiments" },
+      { "name": "honey", "quantity": 2, "unit": "tsp", "originalText": "2 teaspoons honey", "category": "condiments" },
+      { "name": "lemon", "quantity": 1, "unit": "whole", "originalText": "1 lemon", "category": "produce" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" },
+      { "name": "Persian cucumbers", "quantity": 1, "unit": "lb", "originalText": "1 pound Persian cucumbers, halved and cut into 1/2-inch pieces", "preparation": "halved and cut into 1/2-inch pieces", "category": "produce" },
+      { "name": "chickpeas", "quantity": 2, "unit": "can", "originalText": "2 (15-ounce) cans chickpeas, drained", "preparation": "drained", "category": "canned" },
+      { "name": "dill", "quantity": 1, "unit": "bunch", "originalText": "Big handful dill, chopped", "preparation": "chopped", "category": "produce" },
+      { "name": "mint leaves", "quantity": 1, "unit": "bunch", "originalText": "Big handful mint leaves, chopped", "preparation": "chopped", "category": "produce" },
+      { "name": "scallions", "quantity": 2, "unit": "whole", "originalText": "2 scallions, thinly sliced", "preparation": "thinly sliced", "category": "produce" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "To a large bowl, add the yogurt, garlic, olive oil, honey and the juice of half a lemon; whisk to combine. If it seems too thick, loosen it up with a splash of water or more lemon juice. Season well with salt and pepper." },
+      { "order": 2, "instruction": "To the yogurt, add the cucumbers, chickpeas, dill, mint and scallions, and squeeze the remaining half lemon over the mixture. Toss to coat. Taste and season well with salt and pepper." },
+      { "order": 3, "instruction": "To serve, drizzle with additional olive oil." }
+    ]
+  },
+  {
+    "id": "french-style-peas",
+    "title": "French Style Peas",
+    "category": "side",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "description": "Classic French braised peas with bacon, pearl onions, and lettuce in a velvety stock.",
+    "tags": ["french", "classic", "side-dish"],
+    "notes": "The beurre manie can be made with ham, duck, or chicken fat instead of butter for variation.",
+    "image": "seed-images/french-peas.png",
+    "ingredients": [
+      { "name": "frozen peas", "quantity": 500, "unit": "g", "originalText": "500g frozen peas, defrosted", "preparation": "defrosted", "category": "frozen" },
+      { "name": "white onions", "quantity": 2, "unit": "whole", "originalText": "2 Italian white onions, diced pea-size", "preparation": "diced pea-size", "category": "produce" },
+      { "name": "gem lettuce", "quantity": 2, "unit": "whole", "originalText": "2 heads gem lettuce, washed and finely cut", "preparation": "washed and finely cut", "category": "produce" },
+      { "name": "ventreche bacon", "quantity": 50, "unit": "g", "originalText": "50g diced ventreche bacon, rind removed", "preparation": "diced, rind removed", "category": "meat" },
+      { "name": "chicken stock", "quantity": 1, "unit": "l", "originalText": "1 liter white chicken stock", "category": "canned" },
+      { "name": "silverskin onions", "quantity": 100, "unit": "g", "originalText": "100g frozen silverskin onions, defrosted", "preparation": "defrosted", "category": "frozen" },
+      { "name": "parsley", "quantity": 0, "unit": "to_taste", "originalText": "Finely chopped parsley", "preparation": "finely chopped", "category": "produce" },
+      { "name": "butter", "quantity": 2, "unit": "tbsp", "originalText": "Beurre manie (equal soft butter and kneaded flour)", "category": "dairy" },
+      { "name": "flour", "quantity": 2, "unit": "tbsp", "originalText": "Flour for beurre manie", "category": "grains" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Render smoked bacon in a hot pan, allow the fat to be drawn out slowly turning down the heat.", "durationMinutes": 5 },
+      { "order": 2, "instruction": "Add the diced onion and season with salt and pepper. Add some butter and allow to cook to soften for around 5-10 minutes.", "durationMinutes": 10 },
+      { "order": 3, "instruction": "Add the peas and pearl onions and cover with the chicken stock. Bring to a simmer." },
+      { "order": 4, "instruction": "Make a beurre manie by kneading equal parts soft butter and flour together. Add to the pot and stir in." },
+      { "order": 5, "instruction": "Cover with a cartouche (parchment paper lid) and bake in a 180\u00b0C (350\u00b0F) oven for 20-25 minutes.", "durationMinutes": 25 }
+    ]
+  },
+  {
+    "id": "one-pot-lemon-chicken-and-rice",
+    "title": "One-Pot Lemon Chicken and Rice",
+    "category": "dinner",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "description": "Crispy chicken thighs nestled on lemony rice with olives and garlic, all in one pot.",
+    "tags": ["one-pot", "weeknight", "comfort-food"],
+    "source": "https://cooking.nytimes.com/recipes/1025436-one-pot-chicken-and-rice-with-caramelized-lemon",
+    "image": "seed-images/lemon-chicken-rice.png",
+    "ingredients": [
+      { "name": "chicken thighs", "quantity": 4, "unit": "piece", "originalText": "4 bone-in, skin-on chicken thighs (about 1.5 lbs)", "preparation": "bone-in, skin-on", "category": "meat" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and black pepper", "category": "spices" },
+      { "name": "dried oregano", "quantity": 2, "unit": "tsp", "originalText": "2 teaspoons dried oregano", "category": "spices" },
+      { "name": "crushed red pepper", "quantity": 0, "unit": "to_taste", "originalText": "Crushed red pepper", "category": "spices" },
+      { "name": "olive oil", "quantity": 2, "unit": "tbsp", "originalText": "2 tablespoons extra-virgin olive oil", "category": "condiments" },
+      { "name": "lemons", "quantity": 2, "unit": "whole", "originalText": "2 lemons", "category": "produce" },
+      { "name": "olives", "quantity": 1, "unit": "cup", "originalText": "1 cup pitted Castelvetrano or kalamata olives, smashed and roughly chopped", "preparation": "pitted, smashed and roughly chopped", "category": "canned" },
+      { "name": "garlic", "quantity": 6, "unit": "clove", "originalText": "6 garlic cloves, minced", "preparation": "minced", "category": "produce" },
+      { "name": "shallot", "quantity": 1, "unit": "whole", "originalText": "1 medium shallot or half medium onion, minced", "preparation": "minced", "category": "produce" },
+      { "name": "long-grain white rice", "quantity": 2, "unit": "cup", "originalText": "2 cups long-grain white rice, rinsed", "preparation": "rinsed", "category": "grains" },
+      { "name": "chicken broth", "quantity": 4, "unit": "cup", "originalText": "4 cups chicken broth", "category": "canned" },
+      { "name": "fresh parsley", "quantity": 0.25, "unit": "cup", "originalText": "1/4 cup roughly chopped fresh parsley", "preparation": "roughly chopped", "category": "produce" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Heat the oven to 400\u00b0F. Pat the chicken thighs dry. Season with 1 tsp each salt, pepper and dried oregano and a pinch of crushed red pepper." },
+      { "order": 2, "instruction": "Place a large Dutch oven over medium-high heat, add oil. Add thighs skin side down and cook undisturbed until they self-release, about 5 minutes. Remove and set aside.", "durationMinutes": 5 },
+      { "order": 3, "instruction": "Cut 1 lemon into 1/4-inch slices. Add to the pot and cook until caramelized and softened, about 2 minutes. Remove and set aside.", "durationMinutes": 2 },
+      { "order": 4, "instruction": "Add the olives, garlic, shallot and 1 tsp each salt, pepper and dried oregano. Cook over medium-low, scraping browned bits, until garlic is fragrant, 2-3 minutes.", "durationMinutes": 3 },
+      { "order": 5, "instruction": "Turn heat to high, add the rice and broth, stir to combine and cover until it comes to a boil, about 5 minutes.", "durationMinutes": 5 },
+      { "order": 6, "instruction": "Remove from heat, place chicken thighs on top skin side up, cover with lemon slices. Place pot covered into the oven and bake until rice and chicken are fully cooked, 25-30 minutes.", "durationMinutes": 30 },
+      { "order": 7, "instruction": "Serve topped with fresh parsley and a squeeze of lemon juice." }
+    ]
+  },
+  {
+    "id": "caramelized-brussels-sprouts-with-lemon",
+    "title": "Caramelized Brussels Sprouts with Lemon",
+    "category": "side",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 45,
+    "servings": 8,
+    "description": "Deeply caramelized sprout cores with shatteringly crispy outer leaves, finished with lemon.",
+    "tags": ["vegetables", "holiday", "crispy"],
+    "source": "https://cooking.nytimes.com/recipes/1024796-caramelized-brussels-sprouts-with-lemon",
+    "notes": "Leaves can be separated from cores 1 day ahead. Store separately in the fridge. Leftovers keep 2 days in the fridge.",
+    "image": "seed-images/brussels-sprouts.png",
+    "ingredients": [
+      { "name": "brussels sprouts", "quantity": 2, "unit": "lb", "originalText": "2 pounds brussels sprouts, bottoms trimmed only very slightly", "preparation": "bottoms trimmed", "category": "produce" },
+      { "name": "olive oil", "quantity": 4, "unit": "tbsp", "originalText": "4 tablespoons olive oil", "category": "condiments" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and freshly ground black pepper", "category": "spices" },
+      { "name": "lemon", "quantity": 1, "unit": "whole", "originalText": "1 lemon", "category": "produce" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Heat oven to 350\u00b0F. Shave off thin layers from the bottom of each sprout, pulling off darker outer leaves into a bowl, until you have just the tight light-green core. Slice any very large cores in half.", "durationMinutes": 15 },
+      { "order": 2, "instruction": "Combine the cores and 2 tbsp oil on a rimmed baking sheet, season with salt and pepper. Toss, arrange cut pieces cut-side down, and roast, shaking once or twice, until a knife slides into cores with just a little resistance, 30-35 minutes.", "durationMinutes": 35 },
+      { "order": 3, "instruction": "Remove baking sheet and increase oven to 425\u00b0F. Add remaining 2 tbsp oil to the bowl of leaves, season with salt and pepper, toss until coated. Scatter leaves over the baking sheet.", "durationMinutes": 2 },
+      { "order": 4, "instruction": "Return to oven and roast until leaves are bright green and crispy and cores are caramelized, 10-15 minutes.", "durationMinutes": 15 },
+      { "order": 5, "instruction": "Let cool slightly. Finely grate about half the lemon zest over the sprouts. Just before serving, squeeze half the lemon over the sheet. Season to taste and serve immediately." }
+    ]
+  },
+  {
+    "id": "orecchiette-with-sausage-and-broccoli-rabe",
+    "title": "Orecchiette with Sausage and Broccoli Rabe",
+    "category": "dinner",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "description": "A classic Southern Italian pasta with crumbled sausage, bitter broccoli rabe, and sharp Pecorino.",
+    "tags": ["italian", "pasta", "weeknight"],
+    "image": "seed-images/orecchiette-sausage.png",
+    "ingredients": [
+      { "name": "orecchiette pasta", "quantity": 1, "unit": "lb", "originalText": "1 lb orecchiette pasta", "category": "grains" },
+      { "name": "Italian sausage", "quantity": 1, "unit": "lb", "originalText": "1 lb Italian sausage, casings removed", "preparation": "casings removed", "category": "meat" },
+      { "name": "broccoli rabe", "quantity": 1, "unit": "bunch", "originalText": "1 bunch broccoli rabe, trimmed and cut into 2-inch pieces", "preparation": "trimmed and cut into 2-inch pieces", "category": "produce" },
+      { "name": "garlic", "quantity": 4, "unit": "clove", "originalText": "4 garlic cloves, thinly sliced", "preparation": "thinly sliced", "category": "produce" },
+      { "name": "red pepper flakes", "quantity": 0.5, "unit": "tsp", "originalText": "1/2 tsp crushed red pepper flakes", "category": "spices" },
+      { "name": "olive oil", "quantity": 3, "unit": "tbsp", "originalText": "3 tablespoons olive oil", "category": "condiments" },
+      { "name": "Pecorino Romano", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup Pecorino Romano, grated", "preparation": "grated", "category": "dairy" },
+      { "name": "salt", "quantity": 0, "unit": "to_taste", "originalText": "Salt", "category": "spices" },
+      { "name": "pasta water", "quantity": 0.5, "unit": "cup", "originalText": "Reserved pasta water", "category": "other" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Bring a large pot of salted water to a boil. Add broccoli rabe and blanch for 2 minutes. Remove with a slotted spoon and set aside. Add orecchiette to the same water and cook until al dente.", "durationMinutes": 12 },
+      { "order": 2, "instruction": "Meanwhile, heat olive oil in a large skillet over medium-high heat. Add sausage and break into small pieces. Cook until browned and cooked through, about 6-8 minutes.", "durationMinutes": 8 },
+      { "order": 3, "instruction": "Add garlic and red pepper flakes to the sausage and cook until fragrant, about 1 minute.", "durationMinutes": 1 },
+      { "order": 4, "instruction": "Add the blanched broccoli rabe to the skillet and toss to combine. Season with salt.", "durationMinutes": 2 },
+      { "order": 5, "instruction": "Drain pasta, reserving 1/2 cup pasta water. Add pasta to the skillet, toss everything together, adding pasta water as needed to create a light sauce. Finish with grated Pecorino Romano." }
+    ]
+  },
+  {
+    "id": "shrimp-ceviche",
+    "title": "Shrimp Ceviche",
+    "category": "appetizer",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 5,
+    "servings": 6,
+    "description": "Bright and zesty shrimp ceviche with fresh vegetables, lime, and a touch of heat.",
+    "tags": ["seafood", "light", "summer", "no-cook"],
+    "notes": "Let the shrimp marinate in citrus for at least 30 minutes (up to 2 hours) for best flavor. Add avocado just before serving.",
+    "image": "seed-images/shrimp-ceviche.png",
+    "ingredients": [
+      { "name": "shrimp", "quantity": 1, "unit": "lb", "originalText": "1 lb shrimp, peeled and deveined", "preparation": "peeled, deveined, and chopped", "category": "seafood" },
+      { "name": "lime juice", "quantity": 1, "unit": "cup", "originalText": "1 cup fresh lime juice (about 8 limes)", "category": "produce" },
+      { "name": "lemon juice", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup fresh lemon juice", "category": "produce" },
+      { "name": "tomato", "quantity": 1, "unit": "cup", "originalText": "1 cup diced tomato", "preparation": "diced", "category": "produce" },
+      { "name": "red onion", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup diced red onion", "preparation": "diced", "category": "produce" },
+      { "name": "jalapeno", "quantity": 1, "unit": "whole", "originalText": "1 jalapeno, seeded and minced", "preparation": "seeded and minced", "category": "produce" },
+      { "name": "cilantro", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup chopped fresh cilantro", "preparation": "chopped", "category": "produce" },
+      { "name": "avocado", "quantity": 1, "unit": "whole", "originalText": "1 avocado, diced", "preparation": "diced", "category": "produce" },
+      { "name": "cucumber", "quantity": 1, "unit": "whole", "originalText": "1 cucumber, peeled and diced", "preparation": "peeled and diced", "category": "produce" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" },
+      { "name": "tortilla chips", "quantity": 0, "unit": "to_taste", "originalText": "Tortilla chips, for serving", "category": "snacks", "optional": true }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Bring a pot of salted water to a boil. Add shrimp and cook until just pink, about 2-3 minutes. Drain and immediately transfer to an ice bath. Once cool, chop into bite-size pieces.", "durationMinutes": 5 },
+      { "order": 2, "instruction": "Combine chopped shrimp with lime juice and lemon juice in a bowl. Cover and refrigerate for at least 30 minutes.", "durationMinutes": 30 },
+      { "order": 3, "instruction": "Add the tomato, red onion, jalapeno, cilantro, cucumber, and avocado. Toss gently to combine." },
+      { "order": 4, "instruction": "Season with salt and pepper. Serve chilled with tortilla chips." }
+    ]
+  },
+  {
+    "id": "beef-bourguignon",
+    "title": "Beef Bourguignon",
+    "category": "dinner",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 180,
+    "servings": 6,
+    "description": "The classic French beef stew braised in red wine with mushrooms, pearl onions, and bacon.",
+    "tags": ["french", "comfort-food", "slow-cook", "winter"],
+    "notes": "Even better the next day. Serve with crusty bread, egg noodles, or mashed potatoes.",
+    "image": "seed-images/beef-bourguignon.png",
+    "ingredients": [
+      { "name": "beef chuck", "quantity": 3, "unit": "lb", "originalText": "3 lbs beef chuck, cut into 2-inch cubes", "preparation": "cut into 2-inch cubes", "category": "meat" },
+      { "name": "bacon", "quantity": 6, "unit": "oz", "originalText": "6 oz bacon, diced", "preparation": "diced", "category": "meat" },
+      { "name": "dry red wine", "quantity": 1, "unit": "whole", "originalText": "1 bottle (750ml) dry red wine (Burgundy or Pinot Noir)", "category": "beverages" },
+      { "name": "beef broth", "quantity": 2, "unit": "cup", "originalText": "2 cups beef broth", "category": "canned" },
+      { "name": "tomato paste", "quantity": 2, "unit": "tbsp", "originalText": "2 tablespoons tomato paste", "category": "canned" },
+      { "name": "butter", "quantity": 3, "unit": "tbsp", "originalText": "3 tablespoons butter", "category": "dairy" },
+      { "name": "flour", "quantity": 3, "unit": "tbsp", "originalText": "3 tablespoons flour", "category": "grains" },
+      { "name": "olive oil", "quantity": 3, "unit": "tbsp", "originalText": "3 tablespoons olive oil", "category": "condiments" },
+      { "name": "pearl onions", "quantity": 1, "unit": "lb", "originalText": "1 lb pearl onions, peeled", "preparation": "peeled", "category": "produce" },
+      { "name": "cremini mushrooms", "quantity": 1, "unit": "lb", "originalText": "1 lb cremini mushrooms, quartered", "preparation": "quartered", "category": "produce" },
+      { "name": "carrots", "quantity": 3, "unit": "whole", "originalText": "3 carrots, cut into 1-inch pieces", "preparation": "cut into 1-inch pieces", "category": "produce" },
+      { "name": "garlic", "quantity": 3, "unit": "clove", "originalText": "3 garlic cloves, minced", "preparation": "minced", "category": "produce" },
+      { "name": "fresh thyme", "quantity": 1, "unit": "tbsp", "originalText": "1 tablespoon fresh thyme leaves", "category": "produce" },
+      { "name": "bay leaves", "quantity": 2, "unit": "whole", "originalText": "2 bay leaves", "category": "spices" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" },
+      { "name": "parsley", "quantity": 0, "unit": "to_taste", "originalText": "Fresh parsley for garnish", "preparation": "chopped", "category": "produce" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Cook diced bacon in a Dutch oven until crispy. Remove and set aside. Pat beef dry, season with salt and pepper. Brown in batches in the bacon fat, about 3-4 minutes per side. Remove and set aside.", "durationMinutes": 20 },
+      { "order": 2, "instruction": "Add carrots and pearl onions to the pot, cook until lightly browned, about 5 minutes. Add garlic and cook 1 minute more.", "durationMinutes": 6 },
+      { "order": 3, "instruction": "Add tomato paste, stir and cook for 1 minute. Sprinkle flour over the vegetables and stir to coat.", "durationMinutes": 2 },
+      { "order": 4, "instruction": "Pour in the wine and beef broth, scraping up any browned bits. Add thyme, bay leaves, bacon, and beef back to the pot. Bring to a simmer." },
+      { "order": 5, "instruction": "Cover and transfer to a 325\u00b0F oven. Braise for 2-3 hours until the beef is fork-tender.", "durationMinutes": 150 },
+      { "order": 6, "instruction": "During the last 30 minutes, saut\u00e9 mushrooms in butter in a separate pan until golden, about 8 minutes. Add to the stew.", "durationMinutes": 8 },
+      { "order": 7, "instruction": "Remove bay leaves. Taste and adjust seasoning. Serve garnished with fresh parsley." }
+    ]
+  },
+  {
+    "id": "zuppa-toscana",
+    "title": "Zuppa Toscana",
+    "category": "dinner",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 6,
+    "description": "A hearty Tuscan soup with spicy sausage, potatoes, kale, and a creamy broth.",
+    "tags": ["soup", "italian", "comfort-food", "winter"],
+    "image": "seed-images/zuppa-toscana.png",
+    "ingredients": [
+      { "name": "Italian sausage", "quantity": 1, "unit": "lb", "originalText": "1 lb Italian sausage (hot or mild)", "category": "meat" },
+      { "name": "bacon", "quantity": 6, "unit": "slice", "originalText": "6 slices bacon, chopped", "preparation": "chopped", "category": "meat" },
+      { "name": "onion", "quantity": 1, "unit": "whole", "originalText": "1 large onion, diced", "preparation": "diced", "category": "produce" },
+      { "name": "garlic", "quantity": 4, "unit": "clove", "originalText": "4 garlic cloves, minced", "preparation": "minced", "category": "produce" },
+      { "name": "chicken broth", "quantity": 4, "unit": "cup", "originalText": "4 cups chicken broth", "category": "canned" },
+      { "name": "water", "quantity": 2, "unit": "cup", "originalText": "2 cups water", "category": "other" },
+      { "name": "Yukon Gold potatoes", "quantity": 1, "unit": "lb", "originalText": "1 lb Yukon Gold potatoes, sliced 1/4-inch thick", "preparation": "sliced 1/4-inch thick", "category": "produce" },
+      { "name": "kale", "quantity": 1, "unit": "bunch", "originalText": "1 bunch kale, stems removed and roughly chopped", "preparation": "stems removed, roughly chopped", "category": "produce" },
+      { "name": "heavy cream", "quantity": 1, "unit": "cup", "originalText": "1 cup heavy cream", "category": "dairy" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" },
+      { "name": "red pepper flakes", "quantity": 0.5, "unit": "tsp", "originalText": "1/2 tsp crushed red pepper flakes", "category": "spices" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Brown the sausage in a large pot over medium-high heat, breaking it into crumbles. Remove and set aside.", "durationMinutes": 8 },
+      { "order": 2, "instruction": "In the same pot, cook bacon until crispy. Remove and set aside, leaving the drippings.", "durationMinutes": 5 },
+      { "order": 3, "instruction": "Add onion to the drippings and cook until softened, about 3 minutes. Add garlic and red pepper flakes, cook 1 minute more.", "durationMinutes": 4 },
+      { "order": 4, "instruction": "Add chicken broth, water, and potatoes. Bring to a boil, then reduce to a simmer. Cook until potatoes are tender, about 15 minutes.", "durationMinutes": 15 },
+      { "order": 5, "instruction": "Add the sausage, bacon, and kale. Simmer until kale is wilted, about 5 minutes.", "durationMinutes": 5 },
+      { "order": 6, "instruction": "Stir in heavy cream. Season with salt and pepper. Serve hot." }
+    ]
+  },
+  {
+    "id": "shrimp-scampi",
+    "title": "Shrimp Scampi",
+    "category": "dinner",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "description": "Succulent shrimp in a garlicky lemon-butter wine sauce tossed with linguine.",
+    "tags": ["italian", "seafood", "pasta", "quick"],
+    "image": "seed-images/shrimp-scampi.png",
+    "ingredients": [
+      { "name": "shrimp", "quantity": 1, "unit": "lb", "originalText": "1 lb large shrimp, peeled and deveined", "preparation": "peeled and deveined", "category": "seafood" },
+      { "name": "linguine", "quantity": 12, "unit": "oz", "originalText": "12 oz linguine or spaghetti", "category": "grains" },
+      { "name": "butter", "quantity": 4, "unit": "tbsp", "originalText": "4 tablespoons butter", "category": "dairy" },
+      { "name": "olive oil", "quantity": 3, "unit": "tbsp", "originalText": "3 tablespoons olive oil", "category": "condiments" },
+      { "name": "garlic", "quantity": 6, "unit": "clove", "originalText": "6 garlic cloves, thinly sliced", "preparation": "thinly sliced", "category": "produce" },
+      { "name": "dry white wine", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup dry white wine", "category": "beverages" },
+      { "name": "lemon juice", "quantity": 1, "unit": "whole", "originalText": "Juice of 1 lemon", "category": "produce" },
+      { "name": "red pepper flakes", "quantity": 0.25, "unit": "tsp", "originalText": "1/4 tsp crushed red pepper flakes", "category": "spices" },
+      { "name": "parsley", "quantity": 0.25, "unit": "cup", "originalText": "1/4 cup chopped fresh parsley", "preparation": "chopped", "category": "produce" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Cook linguine in salted boiling water until al dente. Reserve 1 cup pasta water, then drain.", "durationMinutes": 10 },
+      { "order": 2, "instruction": "While pasta cooks, heat olive oil and 2 tbsp butter in a large skillet over medium-high heat. Season shrimp with salt and pepper, add to skillet. Cook 1-2 minutes per side until pink. Remove and set aside.", "durationMinutes": 4 },
+      { "order": 3, "instruction": "Reduce heat to medium. Add remaining 2 tbsp butter and garlic. Cook until fragrant, about 1 minute.", "durationMinutes": 1 },
+      { "order": 4, "instruction": "Add white wine, lemon juice, and red pepper flakes. Simmer for 2 minutes, scraping up any browned bits.", "durationMinutes": 2 },
+      { "order": 5, "instruction": "Add the cooked pasta and shrimp back to the skillet. Toss to coat, adding pasta water as needed. Finish with parsley. Serve immediately." }
+    ]
+  },
+  {
+    "id": "aglio-e-olio",
+    "title": "Aglio e Olio",
+    "category": "dinner",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "description": "The simplest, most elegant pasta \u2014 golden garlic, olive oil, and a touch of heat.",
+    "tags": ["italian", "pasta", "quick", "simple"],
+    "notes": "The key is to cook the garlic slowly until golden, never brown. The pasta water creates the silky sauce.",
+    "image": "seed-images/aglio-e-olio.png",
+    "ingredients": [
+      { "name": "spaghetti", "quantity": 1, "unit": "lb", "originalText": "1 lb spaghetti", "category": "grains" },
+      { "name": "olive oil", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup extra-virgin olive oil", "category": "condiments" },
+      { "name": "garlic", "quantity": 8, "unit": "clove", "originalText": "8 garlic cloves, thinly sliced", "preparation": "thinly sliced", "category": "produce" },
+      { "name": "red pepper flakes", "quantity": 0.5, "unit": "tsp", "originalText": "1/2 tsp crushed red pepper flakes", "category": "spices" },
+      { "name": "parsley", "quantity": 0.33, "unit": "cup", "originalText": "1/3 cup chopped fresh parsley", "preparation": "chopped", "category": "produce" },
+      { "name": "Parmigiano-Reggiano", "quantity": 0.5, "unit": "cup", "originalText": "1/2 cup grated Parmigiano-Reggiano", "preparation": "grated", "category": "dairy", "optional": true },
+      { "name": "salt", "quantity": 0, "unit": "to_taste", "originalText": "Salt", "category": "spices" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Cook spaghetti in generously salted boiling water until just shy of al dente. Reserve 1 cup pasta water, then drain.", "durationMinutes": 10 },
+      { "order": 2, "instruction": "While pasta cooks, heat olive oil in a large skillet over medium-low heat. Add garlic and red pepper flakes. Cook slowly, stirring occasionally, until garlic is golden (not brown), about 4-5 minutes.", "durationMinutes": 5 },
+      { "order": 3, "instruction": "Add the drained pasta to the skillet along with 1/2 cup reserved pasta water. Toss vigorously over medium heat until the pasta is coated and the sauce is emulsified, about 2 minutes.", "durationMinutes": 2 },
+      { "order": 4, "instruction": "Remove from heat, toss with parsley. Add more pasta water if needed. Serve with Parmigiano-Reggiano if desired." }
+    ]
+  },
+  {
+    "id": "carne-guisada",
+    "title": "Carne Guisada",
+    "category": "dinner",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 120,
+    "servings": 6,
+    "description": "A classic Mexican beef stew braised low and slow with tomatoes, chili, and cumin until fork-tender.",
+    "tags": ["mexican", "comfort-food", "slow-cook", "stew"],
+    "source": "https://www.youtube.com/watch?v=Un2EzS1mIzQ",
+    "notes": "Serve with warm flour tortillas, rice, or beans. Even better the next day.",
+    "image": "seed-images/carne-guisada.png",
+    "ingredients": [
+      { "name": "beef stew meat", "quantity": 3, "unit": "lb", "originalText": "3 lbs cubed beef stew meat or chuck pot roast", "preparation": "cubed", "category": "meat" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and black pepper to taste", "category": "spices" },
+      { "name": "onion", "quantity": 1, "unit": "whole", "originalText": "1 onion", "category": "produce" },
+      { "name": "green bell pepper", "quantity": 1, "unit": "whole", "originalText": "1 large green bell pepper", "category": "produce" },
+      { "name": "garlic", "quantity": 3, "unit": "clove", "originalText": "3 minced garlic cloves", "preparation": "minced", "category": "produce" },
+      { "name": "Roma tomatoes", "quantity": 4, "unit": "whole", "originalText": "4 Roma tomatoes", "category": "produce" },
+      { "name": "all-purpose flour", "quantity": 4, "unit": "tbsp", "originalText": "4 tbsp all-purpose flour", "category": "grains" },
+      { "name": "chili powder", "quantity": 4, "unit": "tsp", "originalText": "4 tsp chili powder", "category": "spices" },
+      { "name": "ground cumin", "quantity": 1.5, "unit": "tsp", "originalText": "1 1/2 tsp ground cumin", "category": "spices" },
+      { "name": "oregano", "quantity": 1, "unit": "tsp", "originalText": "1 tsp oregano", "category": "spices" },
+      { "name": "beef broth", "quantity": 4, "unit": "cup", "originalText": "4 cups beef broth", "category": "canned" },
+      { "name": "tomato paste", "quantity": 2, "unit": "tbsp", "originalText": "2 tbsp tomato paste", "category": "canned" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Season the cubed beef generously with salt and black pepper." },
+      { "order": 2, "instruction": "In a large pot or Dutch oven over medium-high heat, brown the beef in batches. Remove and set aside.", "durationMinutes": 10 },
+      { "order": 3, "instruction": "In the same pot, saut\u00e9 the diced onion and green bell pepper until softened, about 5 minutes. Add the minced garlic and cook for 1 minute.", "durationMinutes": 6 },
+      { "order": 4, "instruction": "Add the flour and stir to coat the vegetables. Cook for 1-2 minutes.", "durationMinutes": 2 },
+      { "order": 5, "instruction": "Add the chili powder, cumin, and oregano. Stir to combine." },
+      { "order": 6, "instruction": "Dice the Roma tomatoes and add them to the pot along with the tomato paste. Stir well.", "durationMinutes": 2 },
+      { "order": 7, "instruction": "Pour in the beef broth and stir, scraping up any browned bits from the bottom. Return the beef to the pot." },
+      { "order": 8, "instruction": "Bring to a boil, then reduce heat to low. Cover and simmer until the beef is fork-tender and the sauce has thickened, about 1.5 to 2 hours. Stir occasionally.", "durationMinutes": 105 },
+      { "order": 9, "instruction": "Taste and adjust seasoning with salt and pepper. Serve with rice, tortillas, or beans." }
+    ]
+  }
+]

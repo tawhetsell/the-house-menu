@@ -11,7 +11,8 @@ interface RecipeCardProps {
 }
 
 export function RecipeCard({ recipe }: RecipeCardProps) {
-  const thumbnailUrl = useRecipeImage(recipe.imageId, false);
+  const blobUrl = useRecipeImage(recipe.imageId, false);
+  const thumbnailUrl = recipe.image || blobUrl;
 
   return (
     <Link to={`/recipe/${recipe.id}`}>

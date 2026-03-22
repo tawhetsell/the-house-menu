@@ -23,7 +23,8 @@ export function RecipeDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const recipe = useRecipe(id);
-  const imageUrl = useRecipeImage(recipe?.imageId);
+  const blobUrl = useRecipeImage(recipe?.imageId);
+  const imageUrl = recipe?.image || blobUrl;
   const [servings, setServings] = useState<number | null>(null);
   const [showDeleteDialog, setShowDeleteDialog] = useState(false);
 

@@ -38,6 +38,7 @@ export interface Recipe {
   id: string;
   title: string;
   description?: string;
+  image?: string;
   imageId?: string;
   ingredients: Ingredient[];
   steps: RecipeStep[];
