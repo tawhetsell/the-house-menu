@@ -1,73 +1,35 @@
-# React + TypeScript + Vite
+# The House Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal recipe manager and grocery list generator that runs entirely in your browser. Save your household's recipes, browse them by category or tag, and generate consolidated grocery lists from the meals you plan to cook.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Recipe Management** — Create, edit, and delete recipes with ingredients, step-by-step instructions, prep/cook times, servings, tags, and images
+- **Search & Filter** — Find recipes by name, filter by meal category (breakfast, lunch, dinner, etc.), or narrow down by tags
+- **Image Support** — Upload recipe photos that are automatically compressed and stored locally
+- **Grocery List Generator** — Select multiple recipes and generate a combined grocery list with ingredients aggregated, units converted, and items grouped by grocery aisle
+- **Offline-First** — All data lives in your browser's IndexedDB. No account, no server, no internet required
+- **Dark Mode** — Full light and dark theme support
 
-## React Compiler
+## Live App
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[https://tawhetsell.github.io/the-house-menu/](https://tawhetsell.github.io/the-house-menu/)**
 
-## Expanding the ESLint configuration
+Deployed automatically to GitHub Pages on every push to `main`.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Local Development
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The dev server runs at `http://127.0.0.1:3000`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Built With
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- React 19, TypeScript, Vite
+- Dexie (IndexedDB) for local storage
+- Tailwind CSS + Base UI for styling
+- Zustand for UI state
+- React Hook Form + Zod for validation

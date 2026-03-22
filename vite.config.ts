@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/the-house-menu/',
   plugins: [react(), tailwindcss()],
   server: {
     host: '127.0.0.1',
