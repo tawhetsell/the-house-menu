@@ -346,5 +346,37 @@
       { "order": 8, "instruction": "Bring to a boil, then reduce heat to low. Cover and simmer until the beef is fork-tender and the sauce has thickened, about 1.5 to 2 hours. Stir occasionally.", "durationMinutes": 105 },
       { "order": 9, "instruction": "Taste and adjust seasoning with salt and pepper. Serve with rice, tortillas, or beans." }
     ]
+  },
+  {
+    "id": "tagliolini-agli-scampi",
+    "title": "Tagliolini agli Scampi",
+    "category": "dinner",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "description": "A simple and elegant Roman pasta from Checco er Carettiere. Fresh egg tagliolini tossed with scampi, cherry tomatoes, garlic, and a touch of chili — ready in minutes.",
+    "tags": ["italian", "seafood", "pasta", "quick", "roman"],
+    "image": "seed-images/tagliolini-agli-scampi.png",
+    "source": "https://www.youtube.com/watch?v=jclU-kfFy9c",
+    "notes": "Stefania's tip: use smaller scampi for pasta — they have more flavor. The key is cooking the scampi only 2 minutes at the end to keep them succulent. The tomatoes should be cooked until almost caramelized for a deeper, sun-dried-tomato-like flavor.",
+    "ingredients": [
+      { "name": "scampi", "quantity": 300, "unit": "g", "originalText": "300g scampi (langoustines), smaller size", "category": "seafood" },
+      { "name": "fresh egg tagliolini", "quantity": 200, "unit": "g", "originalText": "200g fresh egg tagliolini (homemade)", "category": "grains" },
+      { "name": "extra virgin olive oil", "quantity": 3, "unit": "tbsp", "originalText": "Extra virgin olive oil, a generous glug", "category": "condiments" },
+      { "name": "garlic", "quantity": 1, "unit": "clove", "originalText": "1 clove garlic", "category": "produce" },
+      { "name": "peperoncino", "quantity": 1, "unit": "piece", "originalText": "1 small piece peperoncino (chili pepper)", "category": "spices" },
+      { "name": "cherry tomatoes", "quantity": 200, "unit": "g", "originalText": "Cherry tomatoes, halved", "preparation": "halved", "category": "produce" },
+      { "name": "fresh parsley", "quantity": 0, "unit": "to_taste", "originalText": "Fresh parsley, chopped", "preparation": "chopped", "category": "produce" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Heat a generous amount of extra virgin olive oil in a large pan. Add the garlic clove and a piece of peperoncino. Let them gently sizzle.", "durationMinutes": 2 },
+      { "order": 2, "instruction": "While the soffritto heats, peel the scampi: remove the shells and separate the heads. Reserve the heads — do not discard them." },
+      { "order": 3, "instruction": "Before the garlic browns, add the halved cherry tomatoes to the pan. Remove the peperoncino (and the garlic if it's getting too dark).", "durationMinutes": 2 },
+      { "order": 4, "instruction": "Crush the reserved scampi heads into the pan to release their flavorful juices. Let the sauce simmer while the tomatoes cook down and almost caramelize.", "durationMinutes": 3 },
+      { "order": 5, "instruction": "Bring a pot of salted water to a boil and cook the fresh egg tagliolini for 5-7 minutes until al dente.", "durationMinutes": 7 },
+      { "order": 6, "instruction": "Remove the scampi heads from the sauce. Add the peeled scampi tails and cook for just 2 minutes — brief cooking keeps them succulent and sweet.", "durationMinutes": 2 },
+      { "order": 7, "instruction": "Add the drained tagliolini to the pan with a splash of pasta water. Toss everything together to create a light, creamy sauce." },
+      { "order": 8, "instruction": "Plate and finish with a sprinkle of fresh chopped parsley." }
+    ]
   }
 ]
