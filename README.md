@@ -1,6 +1,8 @@
 # The House Menu
 
-A personal recipe manager and grocery list generator that runs entirely in your browser. Save your household's recipes, browse them by category or tag, and generate consolidated grocery lists from the meals you plan to cook.
+A personal recipe manager and grocery list generator. Save your favorite recipes, upload images, and generate grocery lists.
+
+![The House Menu](pictures/house-menu.png)
 
 ## Features
 
@@ -15,9 +17,11 @@ A personal recipe manager and grocery list generator that runs entirely in your 
 
 **[https://tawhetsell.github.io/the-house-menu/](https://tawhetsell.github.io/the-house-menu/)**
 
-The live site is a read-only demonstration. To add and manage your own recipes, run the app locally.
+The hosted site is read-only at this time. Currently, you can browse existing recipes, search, filter, and view grocery lists, but you cannot add, edit, or delete recipes. All the editing and management features require running the app locally.
 
 ## Running Locally
+
+To get the full experience with recipe editing, image uploads, and data export/import:
 
 ```bash
 npm install
@@ -26,7 +30,7 @@ npm run dev
 
 The dev server runs at `http://127.0.0.1:3000`. On Windows, you can also use `dev.bat`.
 
-Recipes are stored in `public/data/recipes.json`. To save your changes:
+Recipes are seeded from `public/data/recipes.json` into IndexedDB on first load. To persist your changes:
 
 1. Add or edit recipes in the app
 2. Click **Export** to download your updated `recipes.json`
