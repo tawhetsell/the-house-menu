@@ -30,7 +30,7 @@ interface JsonRecipe {
   }>;
 }
 
-const SEED_VERSION = 8;
+const SEED_VERSION = 10;
 
 export async function seedRecipes(): Promise<void> {
   const storedVersion = localStorage.getItem('housemenu_seed_version');

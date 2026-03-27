@@ -378,5 +378,38 @@
       { "order": 7, "instruction": "Add the drained tagliolini to the pan with a splash of pasta water. Toss everything together to create a light, creamy sauce." },
       { "order": 8, "instruction": "Plate and finish with a sprinkle of fresh chopped parsley." }
     ]
+  },
+  {
+    "id": "steak-tartare",
+    "title": "Steak Tartare",
+    "category": "dinner",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "description": "Classic French steak tartare with hand-cut beef fillet, capers, cornichons, and egg yolk. A timeless bistro dish — no cooking required.",
+    "tags": ["french", "classic", "no-cook", "beef"],
+    "image": "seed-images/steak-tartare.png",
+    "source": "https://www.youtube.com/watch?v=8ovyRQeNgkk",
+    "notes": "Always hand-cut the beef with a knife — never use a grinder, which crushes the meat into a puree. Buy from a trusted butcher, not pre-packaged. Use only small capers and drain all vinegar from capers and cornichons. Serve with French fries and a salad for a proper bistro meal.",
+    "ingredients": [
+      { "name": "beef fillet", "quantity": 300, "unit": "g", "originalText": "300g beef fillet (150g per person), very lean", "category": "meat" },
+      { "name": "anchovy fillets", "quantity": 2, "unit": "piece", "originalText": "2 anchovy fillets", "category": "canned" },
+      { "name": "cornichons", "quantity": 4, "unit": "piece", "originalText": "4 cornichons, finely chopped", "preparation": "finely chopped", "category": "condiments" },
+      { "name": "small capers", "quantity": 1, "unit": "tbsp", "originalText": "1 tbsp small capers, drained", "preparation": "drained", "category": "condiments" },
+      { "name": "shallot", "quantity": 1, "unit": "whole", "originalText": "1 shallot, finely diced", "preparation": "finely diced", "category": "produce" },
+      { "name": "egg yolks", "quantity": 2, "unit": "piece", "originalText": "2 egg yolks", "category": "dairy" },
+      { "name": "Dijon mustard", "quantity": 1, "unit": "tsp", "originalText": "A touch of Dijon mustard", "category": "condiments" },
+      { "name": "Worcestershire sauce", "quantity": 1, "unit": "tsp", "originalText": "A touch of Lea & Perrins sauce", "category": "condiments" },
+      { "name": "olive oil", "quantity": 1, "unit": "tbsp", "originalText": "A little olive oil", "category": "condiments" },
+      { "name": "salt and pepper", "quantity": 0, "unit": "to_taste", "originalText": "Salt and pepper", "category": "spices" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Trim any fat from the beef fillet — you do not want to eat raw fat. Cut the fillet into thin slices, then cut across into small pieces by hand with a sharp knife. Never use a grinder." },
+      { "order": 2, "instruction": "Finely chop the cornichons, shallot, and anchovy fillets. Drain the capers well, removing excess vinegar. Everything should be cut quite small." },
+      { "order": 3, "instruction": "Place the chopped beef in a bowl. Add the anchovies, cornichons, capers, and shallots. Mix gently." },
+      { "order": 4, "instruction": "Add the egg yolks and a touch of Dijon mustard (not English mustard). Add a dash of Worcestershire sauce, salt, and pepper." },
+      { "order": 5, "instruction": "Slowly drizzle in a little olive oil while mixing, incorporating the yolk and mustard together with the meat. Don't add too much oil." },
+      { "order": 6, "instruction": "Taste and adjust seasoning with salt and pepper. Serve immediately, shaped on a plate, with French fries and a green salad." }
+    ]
   }
 ]
