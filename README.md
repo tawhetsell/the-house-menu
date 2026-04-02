@@ -43,3 +43,7 @@ Recipes are seeded from `public/data/recipes.json` into IndexedDB on first load.
 - Tailwind CSS + Base UI for styling
 - Zustand for UI state
 - React Hook Form + Zod for validation
+
+## Acknowledgements
+
+- Claude Code Opus 4.6 was used to build this application
